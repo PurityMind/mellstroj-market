@@ -14,13 +14,14 @@ header {
     color: azure;
 }
 
-    header p {
-        text-align: center;
-    }
+header p {
+    text-align: center;
+}
 
 
 .catalog {
     display: flex;
+    grid-template-columns: repeat(3, 1fr);
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
@@ -33,12 +34,10 @@ header {
     border: 1px solid #202932;
     border-left: 3px solid #33b5e5;
     border-radius: 2px;
-    width: 100%;
-    max-width: 360px;
     padding: 12px;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 8px 12px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
 }
 
